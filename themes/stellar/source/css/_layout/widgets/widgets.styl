@@ -1,0 +1,65 @@
+.widgets 
+  .loading-wrap
+    margin: 0.5rem 0
+    background: var(--alpha50)
+
+.widgets
+  overflow: scroll
+  flex-grow: 1
+  scrollbar-width: none
+  scrollbar(0, 0)
+  z-index: 1
+  line-height: 1.2
+  margin: 0 var(--gap-l)
+  .widget-wrapper
+    .widget-header
+      padding-left: var(--gap-l)
+      padding-right: var(--gap-l)
+      display: flex
+      justify-content: space-between
+      align-items: baseline
+      line-height: 28px
+      font-weight: 500
+      font-size: $fs-13
+      color: var(--text-p1)
+      .item 
+        display: block
+      >span
+        text-align: left
+        opacity 0.6
+      &:empty
+        display: none
+      .cap-action
+        line-height: 0
+        color: inherit
+        opacity 0.6
+        trans2: opacity background
+        border-radius: 4px
+        padding: 6px
+        margin-right: -5px
+        svg
+          height: 1em
+          width: auto
+          transform: scale(1.2)
+          fill: var(--text-p2)
+        &:hover
+          color: $color-hover
+          background: var(--alpha100)
+          opacity 1
+          svg
+            fill: $color-hover
+
+    .widget-body
+      margin: 0.5rem 0
+      color: var(--text-p1)
+      p
+        margin-top: .5em
+        margin-bottom: .5em
+        line-height: 1.5
+    .widget-header+.widget-body
+      margin-top: 0
+
+
+.widget-wrapper
+  display: block
+  margin: 32px 0
