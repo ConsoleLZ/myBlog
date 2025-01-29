@@ -23,7 +23,7 @@ open_graph:
 logo:
   avatar: 'https://pic.imgdb.cn/item/665f06ac5e6d1bfa0573f8c5.jpg' # you can set avatar link in _config.yml or '[https://xxx.png](/about/)'
   title: '程序猿小哲' # you can set html tag like: '[<img no-lazy height="32px" src="xxx"/>](/)'
-  subtitle: '路飞 | 索隆' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
+  subtitle: '邮箱：17347187569@163.com' # '文字1 | 文字2' (鼠标放上去会切换到文字2)
 
 # 侧边栏主功能导航菜单
 menubar:
