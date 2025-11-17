@@ -36,7 +36,7 @@ menubar:
     # url: 点击跳转到哪，支持相对路径和绝对路径
     - id: 1
       theme: '#1BCDFC'
-      icon: ''
+      icon: '/img/navigation.png'
       title: 小哲的导航网站
       url: https://gogo-4gj.pages.dev
     - id: 2
